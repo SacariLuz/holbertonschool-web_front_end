@@ -24,7 +24,7 @@ html {
 body,
 a {
   color: var(--text-color);
-  font-weight: var(font-weight-regular);
+  font-weight: var(--font-weight-regular);
 }
 
 body {
