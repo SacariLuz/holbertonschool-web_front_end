@@ -37,6 +37,10 @@ a {
   line-height: var(--line-height-base);
 }
 
+a:link {
+	color: var(--text-color);
+  }
+
 a:visited {
         font-style: italic;
 }
