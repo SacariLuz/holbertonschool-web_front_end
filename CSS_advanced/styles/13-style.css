@@ -37,6 +37,18 @@ a {
   line-height: var(--line-height-base);
 }
 
+a:visited {
+        font-style: italic;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+a:active {
+        background-color: var(--color-light-grey);
+}
+
 body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
@@ -75,16 +87,4 @@ h6 {
 	font-family: var(--font-family-title);
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
-}
-
-a:visited {
-	font-style: italic;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:active {
-	background-color: var(--color-light-grey);
 }
