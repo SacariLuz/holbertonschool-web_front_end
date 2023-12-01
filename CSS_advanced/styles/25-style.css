@@ -117,6 +117,7 @@ h6 {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
 	background-color: var(--color-black);
+	--button-color: var(--color-white);
 }
 
 .button {
