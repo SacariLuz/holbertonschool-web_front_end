@@ -224,10 +224,10 @@ ul.row {
 	list-style: none;
 }
 
-.row::after {
-	content: "";
+.row:empty:after {
+	content: none;
 	display: table;
-	clear: both;
+	float: none;
 }
 
 .col-1-3 {
