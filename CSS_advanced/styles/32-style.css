@@ -221,7 +221,7 @@ h6 {
 }
 
 .section-hero .section-inner {
-	padding: 10rem 40 rem 2rem 0;
+	padding: 10rem 40rem 2rem 0;
 }
 
 ul.row {
@@ -377,6 +377,7 @@ padding: 0.5rem 1rem;
 .card-work:hover .card-image {
 	transform: scale(1.2);
 	transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
 
 .card-work .card-inner {
 	position: absolute;
