@@ -82,7 +82,9 @@ html {
 body,
 a {
   color: var(--text-color);
+  font-family: var(--font-family-base);
   text-decoration: none;
+  font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
@@ -224,10 +226,10 @@ ul.row {
 	list-style: none;
 }
 
-.row:empty:after {
-	content: none;
+.row::after {
+	content: "";
 	display: table;
-	float: none;
+	clear: both;
 }
 
 .col-1-3 {
